@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 function Projects() {
   return (
     <>
-      <h2 className="mx-4 my-4 text-3xl font-bold text-slate-300">Projects</h2>
+      <h2 className="mx-4 my-4 text-4xl font-bold text-slate-300">Projects</h2>
       <div className="flex flex-col items-center">
         <ProjectCard
           name="Pokemon Memory Game"
