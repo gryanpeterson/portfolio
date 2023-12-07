@@ -1,11 +1,10 @@
 function Contact() {
   return (
     <>
-      <h1 className="text-3xl font-bold">Contact</h1>
-      <div className="flex flex-row justify-evenly">
+      <div className="flex flex-row my-10 justify-evenly">
         <a href="mailto:gryanpeterson@gmail.com">
           <svg
-            className="w-10 h-10"
+            className="w-10 h-10 fill-slate-300"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24">
             <title>email-outline</title>
@@ -17,7 +16,7 @@ function Contact() {
           target="_blank"
           rel="noopener noreferrer">
           <svg
-            className="w-10 h-10"
+            className="w-10 h-10 fill-slate-300"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg">
@@ -30,7 +29,7 @@ function Contact() {
           target="_blank"
           rel="noopener noreferrer">
           <svg
-            className="w-10 h-10"
+            className="w-10 h-10 fill-slate-300"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg">
@@ -43,7 +42,7 @@ function Contact() {
           target="_blank"
           rel="noopener noreferrer">
           <svg
-            className="w-10 h-10"
+            className="w-10 h-10 fill-slate-300"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg">
