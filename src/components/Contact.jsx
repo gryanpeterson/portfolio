@@ -1,10 +1,10 @@
 function Contact() {
   return (
-    <>
-      <div className="flex flex-row my-10 justify-evenly">
+    <div className="my-16">
+      <div className="flex flex-row mt-10 mb-4 sm:justify-center sm:gap-20 justify-evenly">
         <a href="mailto:gryanpeterson@gmail.com">
           <svg
-            className="w-10 h-10 fill-slate-300"
+            className="w-10 h-10 md:w-20 md:h-20 fill-slate-300"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24">
             <title>email-outline</title>
@@ -16,7 +16,7 @@ function Contact() {
           target="_blank"
           rel="noopener noreferrer">
           <svg
-            className="w-10 h-10 fill-slate-300"
+            className="w-10 h-10 md:w-20 md:h-20 fill-slate-300"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg">
@@ -29,7 +29,7 @@ function Contact() {
           target="_blank"
           rel="noopener noreferrer">
           <svg
-            className="w-10 h-10 fill-slate-300"
+            className="w-10 h-10 md:w-20 md:h-20 fill-slate-300"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +42,7 @@ function Contact() {
           target="_blank"
           rel="noopener noreferrer">
           <svg
-            className="w-10 h-10 fill-slate-300"
+            className="w-10 h-10 md:w-20 md:h-20 fill-slate-300"
             role="img"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg">
@@ -51,7 +51,10 @@ function Contact() {
           </svg>
         </a>
       </div>
-    </>
+      <h6 className="flex justify-center text-xl italic md:text-3xl text-slate-300">
+        Connect with ryan
+      </h6>
+    </div>
   );
 }
 export default Contact;
