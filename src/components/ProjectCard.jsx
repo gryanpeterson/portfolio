@@ -1,6 +1,10 @@
+import gitHubBg from "/src/assets/github-mark-white.png";
+
 function ProjectCard({ name, description, technologies, gitHubUrl }) {
   return (
-    <div className="hover:scale-110 duration-300 bg-center flex flex-col items-center w-64 h-64 mb-10 bg-contain bg-no-repeat shadow-2xl bg-[url('src/assets/github-mark-white.png')] justify-evenly">
+    <div
+      className="flex flex-col items-center w-64 h-64 mb-10 duration-300 bg-center bg-no-repeat bg-contain shadow-2xl hover:scale-110 justify-evenly"
+      style={{ backgroundImage: `url(${gitHubBg})` }}>
       <div className="flex flex-col items-center justify-between w-full h-full rounded-lg bg-black/80">
         <h4 className="font-sans text-3xl font-bold text-center text-white/100">
           {name}
