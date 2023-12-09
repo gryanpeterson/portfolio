@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 function Projects() {
   return (
     <>
-      <h2 className="mx-4 my-12 text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl text-slate-300">
+      <h2 className="mx-4 my-12 text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl 2xl:mx-56 text-slate-300">
         Projects
       </h2>
       <div className="flex flex-col items-center gap-6 sm:flex-wrap sm:flex-row sm:justify-center">

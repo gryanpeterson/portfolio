@@ -2,7 +2,7 @@ function Header() {
   return (
     <div className="mt-6 mx-2 grid grid-cols-[1fr_2fr] grid-rows-2 place-items-center">
       <img
-        className="row-span-2 rounded-full w-28 h-28 sm:w-36 sm:h-36 md:w-48 md:h-48 lg:w-64 lg:h-64"
+        className="row-span-2 rounded-full w-28 h-28 sm:w-36 sm:h-36 md:w-48 md:h-48 lg:w-64 lg:h-64 2xl:h-80 2xl:w-80"
         src="/src/assets/headshot.jpg"
         alt=""
       />
