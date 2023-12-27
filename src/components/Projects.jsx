@@ -34,7 +34,7 @@ function Projects() {
             "Pandas",
             "Jupyter Notebook",
           ]}
-          gitHubUrl="https://github.com/gryanpeterson/appointment-scheduler"
+          gitHubUrl="https://github.com/gryanpeterson/"
         />
         <ProjectCard
           thumbnail={inventoryThumbnail}
