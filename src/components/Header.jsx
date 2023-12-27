@@ -2,18 +2,22 @@ import headshot from "/src/assets/headshot.jpg";
 
 function Header() {
   return (
-    <div className="mt-6 mx-2 grid grid-cols-[1fr_2fr] grid-rows-2 place-items-center">
+    <div className="flex flex-col items-center justify-between mx-2 mt-8">
       <img
-        className="row-span-2 rounded-full w-28 h-28 sm:w-36 sm:h-36 md:w-48 md:h-48 lg:w-64 lg:h-64 2xl:h-80 2xl:w-80"
+        className="row-span-2 rounded-full w-28 h-28 sm:w-36 sm:h-36 lg:w-48 lg:h-48"
         src={headshot}
-        alt=""
+        alt="A headshot of Ryan Peterson"
       />
-      <h1 className="text-3xl font-bold text-center sm:text-5xl md:text-7xl lg:text-9xl text-slate-300">
+      <h1 className="my-2 text-3xl font-extrabold text-slate-300">
         Ryan Peterson
       </h1>
-      <h2 className="text-lg font-bold text-center sm:text-2xl md:text-4xl lg:text-6xl text-slate-300">
+      <h2 className="my-2 text-lg font-bold text-slate-300">
         Front-End Engineer
       </h2>
+      <h3 className="mx-4 my-2 text-sm italic text-center sm:mx-32 md:mx-48 lg:mx-12 xl:mx-32 2xl:mx-48 text-slate-400">
+        Building websites and web applications that are beautiful, responsive,
+        and accessible.
+      </h3>
     </div>
   );
 }

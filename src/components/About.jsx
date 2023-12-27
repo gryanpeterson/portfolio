@@ -1,10 +1,8 @@
 function About() {
   return (
     <div>
-      <h1 className="mx-4 my-12 text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl text-slate-300 2xl:mx-56">
-        About
-      </h1>
-      <p className="mx-12 font-sans 2xl:text-xl 2xl:mx-64 text-slate-300">
+      <h1 className="my-8 text-3xl font-bold text-slate-300">About</h1>
+      <p className="text-sm text-slate-400">
         Ryan is a skilled front-end engineer with expertise in HTML, CSS,
         JavaScript, and the React library. He graduated from Western Governors
         University with a Bachelor’s degree in Computer Science where he

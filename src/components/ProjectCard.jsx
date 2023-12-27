@@ -1,25 +1,22 @@
-import gitHubBg from "/src/assets/github-mark-white.png";
+import TechnologyButton from "./TechnologyButton";
 
-function ProjectCard({ name, description, technologies, gitHubUrl }) {
+function ProjectCard({ thumbnail, name, description, technologies }) {
   return (
-    <div
-      className="flex flex-col items-center w-64 h-64 mb-10 duration-300 bg-center bg-no-repeat bg-contain shadow-2xl hover:scale-110 justify-evenly"
-      style={{ backgroundImage: `url(${gitHubBg})` }}>
-      <div className="flex flex-col items-center justify-between w-full h-full rounded-lg bg-black/80">
-        <h4 className="font-sans text-3xl font-bold text-center text-white/100">
-          {name}
-        </h4>
-        <p className="font-sans text-xs text-center text-white/100">
-          {description}
-        </p>
-        <p className="font-sans text-xs text-center text-white/100">
-          {technologies}
-        </p>
-        <a
-          className="font-sans text-lg text-center text-white/100"
-          href={gitHubUrl}>
-          View On GitHub
-        </a>
+    <div className="grid p-4 w-5/6 grid-cols-[1fr_3fr] auto-rows-min bg-slate-700/20 rounded-md w-5/6 lg:w-5/6 place-items-center  duration-300 shadow-2xl hover:scale-110 ">
+      <img
+        className="row-span-3 "
+        src={thumbnail}
+        alt="A thumbnail image of the application"
+      />
+      <h4 className="p-1 px-4 font-bold text-center text-slate-300 text-md">
+        {name}
+      </h4>
+      <p className="p-1 px-4 text-xs text-slate-400">{description}</p>
+
+      <div className="flex flex-row flex-wrap justify-center p-1">
+        {technologies.map((tech) => {
+          return <TechnologyButton name={tech} />;
+        })}
       </div>
     </div>
   );
