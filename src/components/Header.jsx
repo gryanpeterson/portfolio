@@ -14,7 +14,7 @@ function Header() {
       <h2 className="my-2 text-lg font-bold text-slate-300">
         Front-End Engineer
       </h2>
-      <h3 className="mx-4 my-2 text-sm italic text-center sm:mx-32 md:mx-48 lg:mx-12 xl:mx-32 2xl:mx-48 text-slate-400">
+      <h3 className="mx-4 my-2 text-sm italic text-center sm:mx-32 md:mx-48 lg:mx-12 xl:mx-32 2xl:mx-12 text-slate-400">
         Building websites and web applications that are beautiful, responsive,
         and accessible.
       </h3>
