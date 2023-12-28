@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="my-8">
+    <div className="my-8 lg:my-0">
       <div className="flex flex-row justify-center gap-8">
         <a href="mailto:gryanpeterson@gmail.com">
           <svg
